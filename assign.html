@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Clients List</h1>
+        <select id="filterDropdown">
+            <option value="All Clients">All Clients</option>
+            <option value="Managers only">Managers only</option>
+            <option value="Non managers">Non managers</option>
+        </select>
+    </div>
+    <ul id="clientList" class="animated-list"></ul>
+    <div id="popup" class="popup">
+        <span id="clientName"></span>
+        <span id="clientPoints"></span>
+        <span id="clientAddress"></span>
+        <button id="closePopup">Close</button>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
